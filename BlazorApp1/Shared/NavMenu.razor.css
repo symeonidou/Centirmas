@@ -1,0 +1,87 @@
+.navbar-toggler {
+    padding-inline: 10px;
+    border: hidden 0px;
+}
+
+.top-row {
+    height: 3.5rem;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.oi {
+    width: 1rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: auto;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 50px;
+    padding-bottom: 0.5rem;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+}
+
+    .nav-item ::deep a {
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 1rem;
+        color: rgb(62, 117, 116);
+    }
+
+        .nav-item ::deep a.active {
+            background-color: white;
+            color: #3e7574;
+        }
+
+        .nav-item ::deep a:hover {
+            background-color: white;
+            color: #e45e62;
+        }
+
+        .navbar-toggler ::deep a.active {
+            background-color: white;
+            color: #37960f;
+        }
+
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .collapse {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
+@media (max-width: 641px) {
+    .nav-item{
+        font-size: 18px;
+    }
+    .navbar-brand img{
+        width: 314px;
+        height: 92px;
+        display: flex;
+    }
+  
+}
+

@@ -1,0 +1,52 @@
+﻿<nav class="navbar navbar-expand-lg">
+
+    <a class="navbar-brand" href="#">
+        <img src="/iconish.png" width="428" height="162" alt="">
+    </a>
+
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+       
+        <span class="material-symbols-outlined">
+            sort
+        </span>
+    </button>
+
+      <div class="@NavMenuCssClass navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Home
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Features
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    About
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Contact
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</nav>
+  
+
+@code {
+    bool collapseNavMenu = true;
+
+    string baseMenuClass = "navbar-collapse d-sm-inline-flex";
+
+    string NavMenuCssClass => baseMenuClass + (collapseNavMenu ? " collapse" : "");
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+     }
