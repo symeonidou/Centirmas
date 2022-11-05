@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     border: hidden;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 
@@ -102,6 +102,15 @@
         font-size: 16px;
     }
 
+
+.card-group {
+    display: flex;
+    margin-top: 50px;
+}
+.card-group img{
+  
+}
+
 @media (max-width: 641px) {
     .card-title {
         font-size: 20px;
@@ -109,11 +118,7 @@
     .card-text{
         font-size: 16px;
     }
-    .card img{
-    }
-    .card button{
-
-    }
+  
     .card-title-2 {
         font-size: 20px;
     }
