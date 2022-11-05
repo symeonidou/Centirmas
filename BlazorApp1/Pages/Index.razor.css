@@ -52,3 +52,18 @@
         border-radius: 12px;
         height: 40px;
     }
+
+@media (max-width: 641px) {
+    .card-title {
+        font-size: 22px;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+    .card image{
+
+    }
+    .card button{
+
+    }
+}
