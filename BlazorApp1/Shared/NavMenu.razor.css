@@ -1,6 +1,9 @@
 .navbar-toggler {
     padding-inline: 10px;
     border: hidden 0px;
+    color: rgb(62, 117, 116);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .top-row {
@@ -8,19 +11,23 @@
     background-color: white;
 }
 
-.navbar-brand {
+    .navbar-brand {
     font-size: 1.1rem;
-    padding-left: 120px;
+    padding-left: 350px;
     padding-top: 20px;
+    width: stretch;
+    align-self: center;
+    display: flex;
+    text-align: center;
 }
 
-.oi {
+/*.oi {
     width: 1rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
 }
-
+*/
 .nav-item {
     font-weight: 400;
     font-style: normal;
@@ -77,10 +84,12 @@
         font-size: 18px;
     }
     .navbar-brand img{
-        width: 199px;
-        height: 61px;
-        display: flex;
-        align-self: start;
+        visibility: hidden;
+    }
+    .navbar-toggler{
+        display: flex; 
+        text-align: center; 
+        margin-top: -300px;
     }
   
 }
