@@ -7,3 +7,9 @@
     height: 110px;
 }
 
+    @media (max-width: 641px) {
+        
+        .card{
+            height: 80%;
+        }
+}
