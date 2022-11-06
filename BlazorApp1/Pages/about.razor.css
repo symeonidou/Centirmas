@@ -3,7 +3,7 @@
         display: flex;
         flex-direction: column;
         border: hidden;
-        padding-top: 60px;
+        padding-top: 80px;
     }
     .card img {
         position: relative;
@@ -13,10 +13,10 @@
     }
     .card-title {
         font-family: 'Mountains of Christmas', cursive;
-        font-size: 75px;
+        font-size: 60px;
         color: rgb(239, 84, 86);
         line-height: 50px;
-        letter-spacing: 15px;
+        letter-spacing: 0em;
         --para-spacing: 0;
         text-transform: none;
         --head-indent: 0;
@@ -24,42 +24,38 @@
         list-style-type: none;
         text-align: center;
         font-weight: 800;
-        padding-bottom: 20px;
     }
     .card-text {
         font-family: 'Patrick Hand', cursive;
         font-size: 26px;
         color: rgb(62, 117, 116);
         line-height: 30px;
-        letter-spacing: 2px;
+        letter-spacing: 0em;
         --para-spacing: 0;
-        text-transform: uppercase;
+        text-transform: none;
         --head-indent: 0;
         --numeric-list-marker: none;
         list-style-type: none;
         text-align: center;
         font-weight: 600;
     }
-        .card button{
-            border-radius: 4px;
-            display: flex;
-            font-family: 'Poppins', sans-serif;
-            align-items: center;
-            color: white;
-            background-color: rgb(62, 117, 116);
-            font-weight: 400;
-            line-height: 33px;
-            text-align: center;
-            align-self: center;
-            border: hidden;
-            width: 150px;
-            border-radius: 12px;
-            height: 40px;
-            border: hidden;
-            margin-left: 800px;
-        }
-
-
+    .card button {
+        border-radius: 4px;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+        color: white;
+        background-color: rgb(62, 117, 116);
+        font-weight: 400;
+        font-style: normal;
+        line-height: 33px;
+        text-align: center;
+        align-self: center;
+        border: hidden;
+        width: 150px;
+        border-radius: 12px;
+        height: 40px;
+    }
 
     .row{
         margin-top: 100px;
