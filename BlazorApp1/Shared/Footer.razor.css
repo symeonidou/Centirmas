@@ -6,15 +6,5 @@
     width: stretch;
 }
 
-    .card-img-1 {
-        display: flex;
-        align-self: start;
-        width: 900px;
-        padding-left: 20px;
-    }
-.card-img-2 {
-    display: flex;
-    align-self: end;
-    width:900px;
-    padding-left: 10px;
+@media (max-width: 641px) {
 }

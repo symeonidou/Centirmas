@@ -11,5 +11,6 @@
         
         .card{
             height: 80%;
+            visibility: hidden;
         }
 }
