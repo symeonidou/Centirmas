@@ -1,131 +1,46 @@
-﻿    .card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        border: hidden;
-        padding-top: 80px;
-    }
+﻿.card {
+    border: hidden;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
+}
+
     .card img {
-        position: relative;
         display: flex;
-        flex-direction: row;
-        border: hidden;
-    }
-    .card-title {
-        font-family: 'Mountains of Christmas', cursive;
-        font-size: 60px;
-        color: rgb(239, 84, 86);
-        line-height: 50px;
-        letter-spacing: 0em;
-        --para-spacing: 0;
-        text-transform: none;
-        --head-indent: 0;
-        --numeric-list-marker: none;
-        list-style-type: none;
-        text-align: center;
-        font-weight: 800;
-    }
-    .card-text {
-        font-family: 'Patrick Hand', cursive;
-        font-size: 26px;
-        color: rgb(62, 117, 116);
-        line-height: 30px;
-        letter-spacing: 0em;
-        --para-spacing: 0;
-        text-transform: none;
-        --head-indent: 0;
-        --numeric-list-marker: none;
-        list-style-type: none;
-        text-align: center;
-        font-weight: 600;
-    }
-    .card button {
-        border-radius: 4px;
-        display: flex;
-        font-family: 'Poppins', sans-serif;
-        align-items: center;
-        color: white;
-        background-color: rgb(62, 117, 116);
-        font-weight: 400;
-        font-style: normal;
-        line-height: 33px;
-        text-align: center;
         align-self: center;
-        border: hidden;
-        width: 150px;
-        border-radius: 12px;
-        height: 40px;
     }
 
-    .row{
-        margin-top: 100px;
-        line-height: 50px;
-        text-align: center;
-    }
-    .card-title-2 {
-        font-family: 'Fredoka One', cursive;
-        font-size: 26px;
-        color: rgb(6239, 84, 86);
-        line-height: 50px;
-        letter-spacing: 0em;
-        --para-spacing: 0;
-        text-transform: none;
-        --head-indent: 0;
-        --numeric-list-marker: none;
-        list-style-type: none;
-        text-align: center;
-    }
-    .card-text-2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        color: rgb(62, 117, 116);
-        line-height: 10px;
-        letter-spacing: 0em;
-        --para-spacing: 0;
-        text-transform: none;
-        --head-indent: 0;
-        --numeric-list-marker: none;
-        list-style-type: none;
-        text-align: center;
-    }
-    .card-2 button {
-        font-family: 'Poppins', sans-serif;
-        align-items: center;
-        color: white;
-        background-color: rgb(62, 117, 116);
-        font-weight: 400;
-        text-align: center;
-        align-self: center;
-        border: hidden;
-        width: 140px;
-        border-radius: 12px;
-        height: 40px;
-        font-size: 16px;
-    }
+.card-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: black;
+    line-height: 0px;
+    letter-spacing: 10px;
+    --para-spacing: 0;
+    --head-indent: 0;
+    font-weight: 500;
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+}
 
-        .card-group{
-            display: flex;
-            margin-top: 80px;
-            margin-bottom: 80px;
-        }
-        .card-group img{
-  
-        }
+.card img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.material-symbols-outlined{
+}
 
 @media (max-width: 641px) {
-    .card-title {
-        font-size: 20px;
+
+    .card-title{
+        font-size: 10px;
+        letter-spacing: 0px;
     }
-    .card-text {
-        font-size: 16px;
-    }
-    .card-title-2 {
-        font-size: 20px;
-    }
-    .card-text-2 {
-        font-size: 16px;
-    }
-    .card img {
-        margin-top: 50px;
-    }
-    }
+}

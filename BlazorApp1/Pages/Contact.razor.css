@@ -3,32 +3,32 @@
     flex-direction: row;
 }
 
-    .card{
-        border: hidden;
-    }
+.card {
+    border: hidden;
+}
 
-    .card-text {
-        font-family: 'Mountains of Christmas', cursive;
-        font-size: 70px;
-        color: rgb(238, 238, 240);
-        line-height: 80px;
-        letter-spacing: 5px;
-        --para-spacing: 0;
-        text-transform: none;
-        --head-indent: 0;
-        --numeric-list-marker: none;
-        list-style-type: none;
-        font-weight: 600;
-        font-style: normal;
-        color: rgb(238, 238, 240);
-        text-decoration: none;
-        text-align: center;
-        margin-top: 110px;
-    }
+.card-text {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 70px;
+    color: rgb(238, 238, 240);
+    line-height: 80px;
+    letter-spacing: 5px;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(238, 238, 240);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 110px;
+}
 
-    .card img {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-self: center;
-    }
+.card img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
