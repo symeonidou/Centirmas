@@ -9,8 +9,7 @@
 
     @media (max-width: 641px) {
         
-        .card{
-            height: 80%;
-            visibility: hidden;
+        .card img{
+            height: 50px;
         }
 }
